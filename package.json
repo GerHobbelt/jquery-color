@@ -21,7 +21,10 @@
   },
   "bugs": "https://github.com/jquery/jquery-color/issues",
   "license": "MIT",
-  "dependencies": {},
+  "main": "jquery.color.js",
+  "dependencies": {
+    "jquery": ">=1.11.0"
+  },
   "devDependencies": {
     "grunt": "0.4.5",
     "grunt-bowercopy": "1.0.0",
